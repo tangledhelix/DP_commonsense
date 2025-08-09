@@ -21,7 +21,7 @@ cd ~/dp/util
 * [x] `File → Project → Configure Page Labels...`. Check for roman numerals and unnumbered pages. Go to end of book to check page numbers line up.
 
 ### Sequential Inspection of Text
-* [ ] Turn on `Auto Img`
+* [x] Turn on `Auto Img`
 
 Check for:
 
