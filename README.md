@@ -49,6 +49,8 @@ Please submit it to SR.
 
 ### Transcriber's notes ###
 
+* p. 53: changed “genuie” to “genuine” (a genuine readjustment)
+
 ### HTML file review ###
 The iPhone/iPad simulators can't use `file://` URLs. Start a local web server with `python3 -m http.server` in the project directory and going to `localhost:8000` in Safari on the device. 
 
