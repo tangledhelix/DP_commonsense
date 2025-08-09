@@ -14,25 +14,27 @@ Page references (e.g. `001`) refer to the scan numbers, not the original book's 
 
 ### Things to revisit ###
 
-* [ ] Example item
+* [ ] (from forum) Headed sections should be treated as sections since there isn't a ToC.
 
 ### Project manager notes ###
 
-# Description
+#### Description
 A brief discussion of sexuality. I put this in psychology because it's so heavily influenced by ideas from early 20th century psychology.
 
 [The original scans are here at the Internet Archive.](https://archive.org/details/commonsenseofsex1089oppe/mode/2up)
 
-# Proofreading
+#### Proofreading
 Nothing out of the ordinary.
  
-# Formatting
+#### Formatting
 There is no TOC, so please mark new sections (all caps, centered) as sections.
 
-#Post Processing
+#### Post Processing
 Please submit it to SR.
 
 ### Forum notes ###
+
+* Headed sections should be treated as sections since there isn't a ToC.
 
 ### General notes ###
 
