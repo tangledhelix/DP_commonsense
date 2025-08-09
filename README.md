@@ -14,8 +14,8 @@ Page references (e.g. `001`) refer to the scan numbers, not the original book's 
 
 ### Things to revisit ###
 
-* [ ] (from forum) Headed sections should be treated as sections since there isn't a ToC.
-* [ ] p. 62: poetry
+* [x] (from forum) Headed sections should be treated as sections since there isn't a ToC.
+* [x] p. 62: poetry
 
 ### Project manager notes ###
 

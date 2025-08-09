@@ -2,7 +2,7 @@
 
 
 
-/*
+/F
 Little Blue Book No. <b>1089</b>
 Edited by E. Haldeman-Julius
 
@@ -15,18 +15,18 @@ James Oppenheim
 
 HALDEMAN-JULIUS COMPANY
 GIRARD, KANSAS
-*/
+F/
 
 
 
 
-/*
+/F
 Copyright, 1926
 Haldeman-Julius Company
 
 
 PRINTED IN THE UNITED STATES OF AMERICA
-*/
+F/
 
 
 
@@ -1734,7 +1734,7 @@ tastes and their very natures are incompatible.
 
 LOVE
 
-/*
+/P
 The love of man for woman and woman for man,
 It is not often love....
 
@@ -1758,9 +1758,11 @@ Their passion shall surcharge tasks with meaning....
 
 Not alone shall the man find God in himself,
 But in the beloved shall he find him, and in the sight of the beloved shall he adore him....
+P/
 
+/R
 --<i>Songs for the New Age.</i>
-*/
+R/
 
 That still remains the ideal. To the couple
 who have found such meaning in each other,
