@@ -129,11 +129,11 @@ Instructions for `/* */` and `/# #/` blocks:
 ```
 
 ### Apply Scanno Checks
-* [ ] Use `Tools → Stealth Scannos`
-  * [ ] Search based on `en-common.json`. Work through the list.
-  * [ ] Search based on `misspelled.json`. Work through the list.
-  * [ ] Search based on `regex.json`. Work through the list.
-* [ ] `Tools → Jeebies`. Examine its report of possible `he/be` errors.
+* [x] Use `Tools → Stealth Scannos`
+  * [x] Search based on `en-common.json`. Work through the list.
+  * [x] Search based on `misspelled.json`. Work through the list.
+  * [x] Search based on `regex.json`. Work through the list.
+* [x] `Tools → Jeebies`. Examine its report of possible `he/be` errors.
 
 ### Misc checks
 * [ ] Check for chapter/section spacing. Regex: `\n\n\n`
