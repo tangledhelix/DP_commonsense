@@ -197,21 +197,23 @@ For now, process only EN dash. The EM dash and long dash (2x EM) are left for af
 ## Prepare the Plain Text Version
 We now proceed to create a Plain Text Version of the book.
 
-* [ ] Re-open `commonsense-utf8.txt` (if not still open).
+* [x] Re-open `commonsense-utf8.txt` (if not still open).
 
 ### Convert `<tb>`, Italic, Bold, and Smallcap
-* [ ] `Text → Convert Markup`:
-  * [ ] Convert [inline formatting](https://www.pgdp.net/wiki/DP_Official_Documentation:Formatting/Formatting_Guidelines#Formatting_at_the_Character_Level:).
-  * [ ] Convert [thought breaks](https://www.pgdp.net/wiki/DP_Official_Documentation:Formatting/Formatting_Guidelines#Thought_Breaks_.28Extra_Spacing.2FDecoration_Between_Paragraphs.29).
-  * [ ] Convert [smallcaps](https://www.pgdp.net/wiki/DP_Official_Documentation:PP_and_PPV/Guide_to_smallcaps).
+* [x] `Text → Convert Markup`:
+  * [x] Convert [inline formatting](https://www.pgdp.net/wiki/DP_Official_Documentation:Formatting/Formatting_Guidelines#Formatting_at_the_Character_Level:).
+  * [x] Convert [thought breaks](https://www.pgdp.net/wiki/DP_Official_Documentation:Formatting/Formatting_Guidelines#Thought_Breaks_.28Extra_Spacing.2FDecoration_Between_Paragraphs.29).
+  * [x] Convert [smallcaps](https://www.pgdp.net/wiki/DP_Official_Documentation:PP_and_PPV/Guide_to_smallcaps).
 
 ### Fix ASCII Tables
 **Pending implementation in GG2**
 
-* [ ] Search for `/*` (no regex) and step through any tables
+n/a for this project
+
+* [x] Search for `/*` (no regex) and step through any tables
   * Compare to page image; reformat to best convey author intent.
   * For complex tables, try using `Txt → ASCII Table Effects` to reformat?
-* [ ] Try this regex to validate that all border characters were replace with box drawing `[=+|-]`
+* [x] Try this regex to validate that all border characters were replace with box drawing `[=+|-]`
 
 ### Rewrap and Clear Rewrap Markers
 * [ ] Search for `^/[*$pcrflxi]` (regex, no match-case) and make any desired [rewrap marker](https://www.pgdp.net/wiki/PPTools/Guiguts/Guiguts_Manual/Tools_Menu#Rewrap_Markers) changes before wrapping

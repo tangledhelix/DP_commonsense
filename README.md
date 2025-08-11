@@ -49,6 +49,7 @@ Please submit it to SR.
 
 ### Transcriber's notes ###
 
+* (TEXT) add note about `=` for bold
 * p. 53: changed “genuie” to “genuine” (a genuine readjustment)
 
 ### HTML file review ###
