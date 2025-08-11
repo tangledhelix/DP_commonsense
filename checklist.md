@@ -157,10 +157,7 @@ Instructions for `/* */` and `/# #/` blocks:
   * Add TN to text version about this superscript notation
 
 ### Apply Bookloupe
-* [ ] `Tools → Bookloupe`.
-  * Hide "Forward slash", "HTML tag", "Short line"
-* Otherwise, use pptext from the [Post-Processing Workbench](https://www.pgdp.net/wiki/DP_Official_Documentation:PP_and_PPV/Post-Processing_Workbench).
-* Work through the list, correcting as appropriate.
+* [x] `Tools → Bookloupe`.
 
 ### Apply Spellcheck
 * [ ] Use `Tools → Spelling`. Proceed through the document, correcting words or adding them to the project dictionary as appropriate.
