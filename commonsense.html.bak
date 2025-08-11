@@ -1,35 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>
+      The Common Sense of Sex | Project Gutenberg
+    </title>
+    <link rel="icon" href="images/cover.jpg" type="image/x-cover">
+    <style>
 
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+}
 
+h1,h2,h3,h4,h5,h6 {
+    text-align: center; /* all headings centered */
+    clear: both;
+}
+h1 { font-size: 2.5em; }
+.author { font-size: 1.5em; }
 
+p {
+    margin-top: .51em;
+    text-align: justify;
+    margin-bottom: .49em;
+    text-indent: 1em;
+}
 
-/F
-Little Blue Book No. <b>1089</b>
+.p2       {margin-top: 2em;}
+.p4       {margin-top: 4em;}
+.p6       {margin-top: 6em;}
 
-Edited by E. Haldeman-Julius
+hr {
+    width: 33%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 33.5%;
+    margin-right: 33.5%;
+    clear: both;
+}
 
-The Common
-Sense of Sex
+hr.tb   {width: 45%; margin-left: 27.5%; margin-right: 27.5%;}
+hr.chap {width: 65%; margin-left: 17.5%; margin-right: 17.5%;}
+@media print { hr.chap {display: none; visibility: hidden;} }
+hr.full {width: 95%; margin-left: 2.5%; margin-right: 2.5%;}
 
-James Oppenheim
+hr.r5  {width: 5%; margin-top: 1em; margin-bottom: 1em; margin-left: 47.5%; margin-right: 47.5%;}
+hr.r65 {width: 65%; margin-top: 3em; margin-bottom: 3em; margin-left: 17.5%; margin-right: 17.5%;}
 
-HALDEMAN-JULIUS COMPANY
+div.chapter {page-break-before: always;}
+h2.nobreak  {page-break-before: avoid;}
 
-GIRARD, KANSAS
+ul.index { list-style-type: none; }
+li.ifrst {
+    margin-top: 1em;
+    text-indent: -2em;
+    padding-left: 1em;
+}
+li.indx  {
+    margin-top: .5em;
+    text-indent: -2em;
+    padding-left: 1em;
+}
+li.isub1 {
+    text-indent: -2em;
+    padding-left: 2em;
+}
+li.isub2 {
+    text-indent: -2em;
+    padding-left: 3em;
+}
+li.isub3 {
+    text-indent: -2em;
+    padding-left: 4em;
+}
+li.isub4 {
+    text-indent: -2em;
+    padding-left: 5em;
+}
 
-Copyright, 1926
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+table.autotable    { border-collapse: collapse; }
+table.autotable td,
+table.autotable th { padding: 0.25em; }
 
-Haldeman-Julius Company
+.tdl      {text-align: left;}
+.tdr      {text-align: right;}
+.tdc      {text-align: center;}
 
-PRINTED IN THE UNITED STATES OF AMERICA
-F/
+.pagenum { /* uncomment the next line for invisible page numbers */
+    /*  visibility: hidden;  */
+    position: absolute;
+    left: 92%;
+    font-size: small;
+    text-align: right;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-indent: 0;
+} /* page numbers */
 
+.linenum {
+    position: absolute;
+    top: auto;
+    left: 4%;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+} /* poetry number */
 
+blockquote {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 5%;
+    margin-right: 10%;
+}
 
+.sidenote {
+    width: 20%;
+    padding-bottom: .5em;
+    padding-top: .5em;
+    padding-left: .5em;
+    padding-right: .5em;
+    margin-left: 1em;
+    float: right;
+    clear: right;
+    margin-top: 1em;
+    font-size: small;
+    color: black;
+    background: #eeeeee;
+    border: 1px dashed;
+}
 
-THE COMMON SENSE OF SEX
+.bb       {border-bottom: 2px solid;}
 
+.bl       {border-left: 2px solid;}
 
-Perhaps one of the hardest lessons this generation
+.bt       {border-top: 2px solid;}
+
+.br       {border-right: 2px solid;}
+
+.bbox     {border: 2px solid;}
+
+.center   {text-align: center;}
+
+.right    {text-align: right;}
+
+.smcap    {font-variant: small-caps;}
+
+.allsmcap {font-variant: small-caps; text-transform: lowercase;}
+
+.u        {text-decoration: underline;}
+
+.gesperrt
+{
+    font-style: normal;
+    letter-spacing: 0.2em;
+    margin-right: -0.2em;
+}
+.x-ebookmaker-2 .gesperrt {
+    font-style: italic;
+    letter-spacing: normal;
+    margin-right: 0em;
+}
+
+figcaption   {font-weight: bold;}
+figcaption p {margin-top: 0; margin-bottom: .2em; text-align: inherit;}
+
+/* Images */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+img.w100 {width: 100%;}
+
+.figcenter {
+    margin: auto;
+    text-align: center;
+    page-break-inside: avoid;
+    max-width: 100%;
+}
+
+.figleft {
+    float: left;
+    clear: left;
+    margin-left: 0;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    margin-right: 1em;
+    padding: 0;
+    text-align: center;
+    page-break-inside: avoid;
+    max-width: 100%;
+}
+/* comment out next line and uncomment the following one for floating figleft on ebookmaker output */
+.x-ebookmaker .figleft {float: none; text-align: center; margin-right: 0;}
+/* .x-ebookmaker .figleft {float: left;} */
+
+.figright {
+    float: right;
+    clear: right;
+    margin-left: 1em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    margin-right: 0;
+    padding: 0;
+    text-align: center;
+    page-break-inside: avoid;
+    max-width: 100%;
+}
+/* comment out next line and uncomment the following one for floating figright on ebookmaker output */
+.x-ebookmaker .figright {float: none; text-align: center; margin-left: 0;}
+/* .x-ebookmaker .figright {float: right;} */
+
+/* Footnotes */
+.footnotes        {border: 1px dashed;}
+
+.footnote         {margin-left: 10%; margin-right: 10%; font-size: 0.9em;}
+
+.footnote .label  {position: absolute; right: 84%; text-align: right;}
+
+.fnanchor {
+    vertical-align: super;
+    font-size: .8em;
+    text-decoration:
+    none;
+}
+
+/* Poetry */
+/* uncomment the next line for centered poetry */
+/* .poetry-container {display: flex; justify-content: center;} */
+.poetry-container {text-align: center;}
+.poetry           {text-align: left; margin-left: 5%; margin-right: 5%;}
+.poetry .stanza   {margin: 1em auto;}
+.poetry .verse    {text-indent: -3em; padding-left: 3em;}
+
+/* Transcriber's notes */
+.transnote {background-color: #E6E6FA;
+    color: black;
+    font-size:small;
+    padding:0.5em;
+    margin-bottom:5em;
+    font-family:sans-serif, serif;
+}
+
+/* Poetry indents */
+.poetry .indent0 {text-indent: -3.0em;}
+
+.bookno {
+    font-style: bold;
+    font-size: 2.6em;
+    vertical-align: middle;
+    padding-left: .2em;
+}
+
+    </style>
+</head>
+<body>
+
+<p><span class="pagenum" id="Page_1">[Pg 1]</span></p>
+
+<!-- Used a table here... forgive me Father, for I have sinned -->
+<table>
+<tr>
+<td><span style="font-size:1.1em">LITTLE BLUE BOOK NO.</span><br>
+Edited by E. Haldeman-Julius</td>
+<td class="bookno">1089</td>
+</tr>
+</table>
+
+<h1>
+The Common Sense of Sex
+</h1>
+
+<p class="center author">James Oppenheim</p>
+
+<p class="center p6">HALDEMAN-JULIUS COMPANY</p>
+
+<p class="center">GIRARD, KANSAS</p>
+
+<p><span class="pagenum" id="Page_2">[Pg 2]</span></p>
+
+<p class="center p2">Copyright, 1926</p>
+
+<p class="center">Haldeman-Julius Company</p>
+
+<p class="center p2">PRINTED IN THE UNITED STATES OF AMERICA</p>
+
+<hr class="chap x-ebookmaker-drop">
+<div class="chapter">
+
+<p><span class="pagenum" id="Page_3">[Pg 3]</span></p>
+
+  <h2 class="nobreak" id="THE_COMMON_SENSE_OF_SEX">
+    THE COMMON SENSE OF SEX
+  </h2>
+</div>
+
+<p>Perhaps one of the hardest lessons this generation
 has had to learn is that sex is a natural
 thing. Christianity has had to admit, of
 course, that sexuality is necessary if the race
@@ -40,9 +312,9 @@ has this puritanism gone that even a modern
 like Bernard Shaw has said that he was
 shocked at the conduct of married people—so
 many of them indulged in love for mere
-pleasure!
+pleasure!</p>
 
-A wave of revolt has been sweeping over
+<p>A wave of revolt has been sweeping over
 the western world. We have had poets like
 Walt Whitman who have celebrated sex as a
 clean, strong thing; writers like Havelock Ellis
@@ -50,25 +322,26 @@ who have gathered together a mine of information
 on the subject; and finally, we have had
 the great psychologist, Freud, who has made a
 scientific study of sex and given us a flood of
-new light on its mysteries.
+new light on its mysteries.</p>
 
-In spite of this new knowledge, however,
+<p>In spite of this new knowledge, however,
 most people are apparently still in ignorance.
 The subject is hedged around with fears and
 taboos. Shame attaches to many phases of it.
-There are men and women of strong desires
+<span class="pagenum" id="Page_4">[Pg 4]</span>There are men and women of strong desires
 who think they are living in sin; and, on the
 other hand, those without desire who think
 they are unnatural. It is time for this dark
 cloud to roll away; and this booklet is simply
 one more attempt to place the matter not only
 in the light of science, but also in the light
-of common sense.
+of common sense.</p>
 
+<p><span class="pagenum" id="Page_5">[Pg 5]</span></p>
 
-ABNORMAL SEXUALITY
+<h3 class="nobreak">ABNORMAL SEXUALITY</h3>
 
-According to Freud, sexuality begins as
+<p>According to Freud, sexuality begins as
 something vague, distributed all over the child’s
 body, and gradually concentrating in the sexual organs.
 The first vague sexual act is suckling.
@@ -80,25 +353,25 @@ this rhythm by itself. It works its thumb
 into its mouth and sucks it. Here begins a
 pleasure, separated from the food-pleasure,
 which is dependent on rhythm, and includes
-the mouth and hand.
+the mouth and hand.</p>
 
-The hand, having learned this trick, now
+<p>The hand, having learned this trick, now
 begins to rub various parts of the body in a
 rhythmical manner. In a vague sort of way
-auto-erotism sets in.
+auto-erotism sets in.</p>
 
-Along with this comes a growing interest in
+<p>Along with this comes a growing interest in
 its own body, and a love of displaying it; the
 stage of exhibitionism. And naturally this
 leads to curiosity about other bodies, especially
-bodies like its own.
+bodies like its own.</p>
 
-But, finally, interest is aroused in the opposite
+<p>But, finally, interest is aroused in the opposite
 sex, and with the awakening of genuine
-sexual desire in puberty, the child is prepared
-to step over to normal sexuality.
+<span class="pagenum" id="Page_6">[Pg 6]</span>sexual desire in puberty, the child is prepared
+to step over to normal sexuality.</p>
 
-According to this, every child who develops
+<p>According to this, every child who develops
 steadily will finally come to normal sexuality.
 Yet it is obvious that the world is full of people
 who have sexual trouble. There are men
@@ -110,9 +383,9 @@ those who cannot break the auto-erotic habit.
 Finally, there are those whose only pleasure
 consists in cruelty to others, or having cruelty
 practiced upon themselves—the sadists and the
-masochists.
+masochists.</p>
 
-These troubles, according to Freud, can be
+<p>These troubles, according to Freud, can be
 traced back to the child’s original love-attachment
 to the mother or father. It is the Oedipus
 complex, named after the Greek king who innocently
@@ -121,55 +394,55 @@ mother, had children by her, and when the
 truth was revealed to him, put out his own
 eyes and wandered homeless about the land.
 This is the crime of incest, tabooed almost universally
-by every race.
+by every race.</p>
 
-In other words, Freud thinks it natural that
+<p>In other words, Freud thinks it natural that
 the child’s first love should have a sexual coloring;
 that the boy desires the mother, and
-the girl the father; but that the deep taboo,
+<span class="pagenum" id="Page_7">[Pg 7]</span>the girl the father; but that the deep taboo,
 felt by the child though not understood by him,
 produces a fear that drives him finally to take
 some substitute for the mother, another woman
 (how often men seek women who are like their
 mothers!), or may make it impossible for him
-ever to have normal sexuality.
+ever to have normal sexuality.</p>
 
-In other words, the child, in fear of going
+<p>In other words, the child, in fear of going
 any further toward the goal of his love, the
 mother, may become fixed at some point of
 childish expression: one boy may never go
 further than auto-erotism; another may remain
 all his life at the homosexual phase. In this
 way the perversions are accounted for; they
-are infantile expressions, due to fear.
+are infantile expressions, due to fear.</p>
 
-The cure, according to Freud, is two-fold:
+<p>The cure, according to Freud, is two-fold:
 the patient must come to understand that the
 cause of the trouble is his love for the parent,
 and that this love must be sacrificed, and the
 attachment broken, in order that the desire
-for normal sexuality may be cultivated.
+for normal sexuality may be cultivated.</p>
 
-The other solution is <i>sublimation</i>. That is to
+<p>The other solution is <i>sublimation</i>. That is to
 say, express your abnormal desire, but on a
 higher level and in a different form. In fact,
 Freud traces many of the glories of our civilization
 to this technic, employed unconsciously
 as a rule. For instance, a man may be a sadist;
 his desire is to cut other people with a knife.
-Let him, then, become a surgeon, and cut people
-creatively instead of destructively.
+<span class="pagenum" id="Page_8">[Pg 8]</span>Let him, then, become a surgeon, and cut people
+creatively instead of destructively.</p>
 
-Another man is an exhibitionist. He wants
+<p>Another man is an exhibitionist. He wants
 to display himself publicly. Let him become
-an actor.
+an actor.</p>
 
-A third has intense curiosity; he would, if
+<p>A third has intense curiosity; he would, if
 he expressed this desire unsublimated, become
 a Peeping Tom. Let him become a scientist,
-intent on looking into the unknown.
+intent on looking into the unknown.</p>
 
-Against this viewpoint of Freud’s, Dr. Jung,
+<p>Against this viewpoint of Freud’s, Dr. Jung,
 the psychologist of Zurich, brings a barrage of
 criticism. He says, first, that while these expressions
 of the child have every appearance
@@ -178,9 +451,9 @@ a rule true sexuality does not awaken in a
 child until puberty. And he says, second, that
 the desire for incest is relatively rare: since,
 naturally, when it comes to sexuality, a man
-desires a young woman and not an old.
+desires a young woman and not an old.</p>
 
-While these criticisms seem to me well-founded,
+<p>While these criticisms seem to me well-founded,
 great credit must nevertheless go to
 Freud for having shown us that these sexual
 manifestations are not necessarily rooted in
@@ -189,17 +462,18 @@ natural expressions in the development of everyone.
 For while it is true that not many children
 have sexual feeling before puberty, on
 the other hand in the cases of men and women
-who practice perversions it is usually found
+<span class="pagenum" id="Page_9">[Pg 9]</span>who practice perversions it is usually found
 that the habit originated in childhood, and was
-not broken when puberty dawned.
+not broken when puberty dawned.</p>
 
-I will reserve the treatment of the abnormal
-for a later chapter.
+<p>I will reserve the treatment of the abnormal
+for a later chapter.</p>
 
+<p><span class="pagenum" id="Page_10">[Pg 10]</span></p>
 
-THE THIRD SEX
+<h3 class="nobreak">THE THIRD SEX</h3>
 
-Edward Carpenter of England has advanced
+<p>Edward Carpenter of England has advanced
 the theory that there is a third sex, which is
 hermaphroditic, or bi-sexual. He would place
 this sex as midway between man and woman
@@ -212,9 +486,9 @@ them, and women who have much of the masculine.
 However, often this shows in some
 physical characteristic, as an effeminate voice
 in a man, a growth of hair on a woman’s chin,
-a manner of walking, etc.
+a manner of walking, etc.</p>
 
-Edward Carpenter believes that this third sex
+<p>Edward Carpenter believes that this third sex
 was the one which, because it could not follow
 the beaten path, gave birth to philosophy, religion,
 art, law and invention. As he pictures
@@ -225,12 +499,12 @@ that he would evade in every manner joining
 in the masculine occupations of hunting and
 fighting. He would stay home with the women
 and justify this by becoming the shaman or
-medicine-man, the first doctor and mystic. Thus
+<span class="pagenum" id="Page_11">[Pg 11]</span>medicine-man, the first doctor and mystic. Thus
 he would have time for brooding, and in this
 way cultivate his imagination, and bring forth
-new theory and new arts.
+new theory and new arts.</p>
 
-That there is some basis for this theory is
+<p>That there is some basis for this theory is
 obvious. The founders of religion are usually
 pictured as more or less hermaphroditic in nature.
 Jesus, for instance, is shown as not only
@@ -241,9 +515,9 @@ himself as the hen who would have gathered
 its brood under its protecting wings; and he
 tells his disciples to eat of his body in the
 form of the bread. (It is the mother who gives
-her body to her child to eat.)
+her body to her child to eat.)</p>
 
-We find, too, this hermaphroditic quality in
+<p>We find, too, this hermaphroditic quality in
 some of the great artists and poets. Walt
 Whitman, our American poet, is a good example.
 He was powerfully built, robust, healthy
@@ -252,44 +526,44 @@ that it is related that Lincoln said of him,
 “There goes a man”; yet he was as tender as a
 woman. He nursed personally thousands of
 soldiers in the Civil War, and their feeling
-was that he gave them a kind of mother love.
+was that he gave them a kind of mother love.</p>
 
-But there have been other great men, not
+<p>But there have been other great men, not
 artists or religious leaders, who were similar.
-Lincoln, for instance, had the brooding tenderness
+<span class="pagenum" id="Page_12">[Pg 12]</span>Lincoln, for instance, had the brooding tenderness
 and the deep sympathy which we associate
-with the mother.
+with the mother.</p>
 
-However, the implication in Carpenter’s theory
+<p>However, the implication in Carpenter’s theory
 is that it isn’t just a matter of mental
 qualities, but also sexual; that the third sex
 has some of the sexual feeling and need of
 both sexes, and that this is an explanation of
-the cause of homosexuality.
+the cause of homosexuality.</p>
 
-The facts, however, are against the Carpenter
+<p>The facts, however, are against the Carpenter
 theory. One finds, in practice, that there are
 homosexual men aggressively masculine, and
 with hardly a trace of the feminine about them;
 and, on the other hand, more or less effeminate
-men whose sexuality is absolutely normal.
+men whose sexuality is absolutely normal.</p>
 
-Moreover, there is a deeper explanation for
+<p>Moreover, there is a deeper explanation for
 the man who couldn’t go out and fight and
 hunt with the other men, and for the woman
 who hated the agricultural and house duties
 of other women. According to Jung, there are
-two great types, the extraverted and the introverted.
+two great types, the extraverted and the introverted.</p>
 
-These types appear, he believes, as differentiations
+<p>These types appear, he believes, as differentiations
 of the two basic and primary instincts,
 that of self-preservation and that of race-propagation,
 or, in other words, the ego-instinct
 and the sexual. We are, evidently, born into
-the one type or the other, just as we are born
-into the one sex or the other.
+<span class="pagenum" id="Page_13">[Pg 13]</span>the one type or the other, just as we are born
+into the one sex or the other.</p>
 
-The sexual instinct, unconsciously, of course,
+<p>The sexual instinct, unconsciously, of course,
 leads toward the propagation of the species;
 the urge of nature is for reproduction so that
 the race can go on. And hence this instinct
@@ -302,32 +576,34 @@ more prosperity and power; they must hunt
 to bring food. The women must bring up the
 children, make and preserve the home, engage
 in activities like cooking, spinning, weaving,
-agriculture.
+agriculture.</p>
 
-The sexual instinct leads them to activities,
+<p>The sexual instinct leads them to activities,
 to the general run of common life; and in its
 higher development to the ideal of the brotherhood of man,
-democracy, etc.
+democracy, etc.</p>
 
-The ego-instinct leads to contrary things. It
+<p>The ego-instinct leads to contrary things. It
 is the opposite to the sexual instinct. Both
 instincts are natural and exist in everyone:
 for if it is natural to mate and to seek the good
 of others, it is equally natural to defend and
 develop oneself. However, the opposing types
 arise, according to Jung, because we are born
-with one instinct or the other predominant.
+with one instinct or the other predominant.</p>
 
-The ego-instinct makes one think of oneself.
+<p><span class="pagenum" id="Page_14">[Pg 14]</span></p>
+
+<p>The ego-instinct makes one think of oneself.
 And while this self-concentration appears first
 as selfishness, as egotism, as setting oneself
 above and against others; in its development it
 leads further. It leads to withdrawing from
 others, in order to brood, to study, to develop
 the imagination. It leads to introverting, going
-into oneself.
+into oneself.</p>
 
-It was this type then that produced the first
+<p>It was this type then that produced the first
 shaman and medicine-man. For in order to give
 birth to art, or philosophy, or discovery and
 invention, one must seclude oneself from others,
@@ -340,25 +616,25 @@ with his own ideas and emotions, with the pictures
 that loomed up in his mind and which
 he felt compelled to scratch out on stone or
 bone; with an unseen world which he saw as
-one of gods and demons; with religion and invention.
+one of gods and demons; with religion and invention.</p>
 
-The tribe doubtless thought him strange and
+<p>The tribe doubtless thought him strange and
 abnormal; but not necessarily effeminate. He
 secured his place by the results he produced,
 so that, in the common mind, he became linked
 with the supernatural. In fact, up to very
-recent years, the world held as more or less
+<span class="pagenum" id="Page_15">[Pg 15]</span>recent years, the world held as more or less
 sacred its religious leaders and artists, its doctors
-and great students.
+and great students.</p>
 
-The introvert dreams the future which the
+<p>The introvert dreams the future which the
 extravert lives. Our whole structure of civilization,
 with its sciences, its arts, its inventions,
 and even its manners and habits, was built up
 by extraverts who made use of the great discoveries
-of introverts.
+of introverts.</p>
 
-It may be seen at a glance that the problem
+<p>It may be seen at a glance that the problem
 of sexuality differs for the two types. If the
 extraverted, or active, type is rooted in the
 sexual-instinct, naturally it is the more sexual
@@ -367,36 +643,36 @@ the ego-instinct, is less so. However, we must
 remember that the types are rarely pure; both
 instincts exist in every one of us, only in the
 extravert the one is accented, in the introvert,
-the other.
+the other.</p>
 
-But quite aside from the problem of type,
+<p>But quite aside from the problem of type,
 there is the problem of bi-sexuality. To Jung
 this is a mental and emotional matter, rather
 than a physical. In other words, just as in all
 of us exist the ego and sexual instincts, just
 so there exist in all of us the masculine and
-feminine <i>principles</i>.
+feminine <i>principles</i>.</p>
 
-In the recent fight for Women’s Rights, there
+<p>In the recent fight for Women’s Rights, there
 were those women who enlightened us by saying
-that men and women are fundamentally
+<span class="pagenum" id="Page_16">[Pg 16]</span>that men and women are fundamentally
 alike, that there must be a single standard of
 morality or immorality, that women could do
 the work of men, etc. On the other hand, the
 so-called he-men of America are fond of affirming
 that they are red-blooded and masculine
 through and through. Neither of these statements
-can bear much scrutiny.
+can bear much scrutiny.</p>
 
-According to Jung, the masculine and feminine
+<p>According to Jung, the masculine and feminine
 are not only opposing physical structures,
-but opposing principles.
+but opposing principles.</p>
 
-The masculine tendency is to <i>spend</i>, the
+<p>The masculine tendency is to <i>spend</i>, the
 feminine to <i>retain</i>. This may be seen in the
-sexual act itself.
+sexual act itself.</p>
 
-Man, in his true nature, is the gambler, the
+<p>Man, in his true nature, is the gambler, the
 adventurer, the one who strays to new fields,
 who fights, who is more or less reckless, and
 who tends, therefore, toward the new and the
@@ -405,13 +681,13 @@ whether along extraverted or introverted lines,
 whether in giving us great new ideas or arts,
 or in exploration, tearing down and rebuilding,
 leading peoples to new forms of government,
-etc.
+etc.</p>
 
-Woman, on the other hand, in her true nature
+<p>Woman, on the other hand, in her true nature
 is cautious, wants to keep things as they
 are, looks for safety. A woman who had been
 radical in her youth told a friend of mine that
-getting children made her a conservative. This
+<span class="pagenum" id="Page_17">[Pg 17]</span>getting children made her a conservative. This
 was natural. All the womanly qualities of patience,
 love, loyalty and devotion are necessary
 in bringing up children; and naturally she
@@ -419,18 +695,18 @@ wants that security and rock of changelessness
 that her task may not be broken up. Woman
 tends, therefore, to be the conservative. While
 man rushes out to grasp the new, she safeguards
-the heritage of the past.
+the heritage of the past.</p>
 
-It is not curious, therefore, that just a few
+<p>It is not curious, therefore, that just a few
 days before the general strike broke out in
 England, one of the most radical acts that
 nation has known, there was a great parade of
 women of every rank protesting against strikes—or,
 in other words, a demand that the vast
 problem be worked out along conservative and
-safe lines.
+safe lines.</p>
 
-However, while these two principles of the
+<p>However, while these two principles of the
 masculine and feminine are mutually opposed,
 we find on close study that they co-exist in
 each one of us. It would seem as if each human
@@ -441,12 +717,12 @@ and courage, but also the qualities of tenderness,
 devotion, patience, etc. Put differently,
 while the bodies of man and woman differ
 from each other sexually, they are fundamentally
-the same body; so, too, while a man is
+<span class="pagenum" id="Page_18">[Pg 18]</span>the same body; so, too, while a man is
 more masculine than a woman, and she more
 feminine than a man, each has, though in less
-degree, the traits of the other.
+degree, the traits of the other.</p>
 
-This is one explanation of how men and
+<p>This is one explanation of how men and
 women attract each other. A man who was,
 say, sixty percent masculine and forty feminine,
 would be apt to be attracted by his opposite,
@@ -459,20 +735,21 @@ have some effect on the sexuality. A more
 feminine man would lack aggressiveness and
 assertiveness, and be more passive; a more
 masculine woman would want to take the upper
-hand.
+hand.</p>
 
-With this understanding of the mixed natures
+<p>With this understanding of the mixed natures
 of man and woman we may better comprehend
-the art of love.
+the art of love.</p>
 
+<p><span class="pagenum" id="Page_19">[Pg 19]</span></p>
 
-THE ART OF LOVE
+<h3 class="nobreak">THE ART OF LOVE</h3>
 
-Havelock Ellis, the great English student of
+<p>Havelock Ellis, the great English student of
 sexuality, and a pioneer in that field, coined the
-phrase.
+phrase.</p>
 
-The sexual act, he maintains, is not a simple
+<p>The sexual act, he maintains, is not a simple
 matter; it is part of an art, the art of lovemaking.
 This is based on the fact that, normally,
 the woman is more slow than the man
@@ -485,9 +762,9 @@ Havelock Ellis’s point of view, which makes
 sexuality a beautiful and a human thing, raising
 the act, in his mind, to something almost
 sacramental, something in which the poetry
-and mystery of existence participate.
+and mystery of existence participate.</p>
 
-While sexuality in its origin was merely an
+<p>While sexuality in its origin was merely an
 instinct aiming at generation and reproduction,
 like every other instinct it has been turned
 into an art by man and become a rich part of
@@ -495,20 +772,20 @@ his life. Eating, too, is an instinctive performance;
 yet very few find satisfaction in eating
 alone and in a plain way. Man, at his best,
 has raised eating to a joyous affair, where
-people not only share the food, but share each
+<span class="pagenum" id="Page_20">[Pg 20]</span>people not only share the food, but share each
 other’s society. Even the food itself may be
 prepared and served in an artistic manner and
-in pleasant surroundings.
+in pleasant surroundings.</p>
 
-So, too, sexuality, according to Havelock Ellis,
+<p>So, too, sexuality, according to Havelock Ellis,
 has become an end in itself: the joyous union
 of man and woman in the mystery of love. For
 instance, he says, in India the art is well
 known, and the act often prolonged for hours.
 The West he finds backward in both the knowledge
-and the practice of this art.
+and the practice of this art.</p>
 
-The sexual act he divides into two parts:
+<p>The sexual act he divides into two parts:
 the forepleasure and the act itself. The forepleasure
 is the preparation and wooing. It
 summarizes, according to him, all those so-called
@@ -521,29 +798,29 @@ studies, are found in the sexual act wherever it
 is practiced as an art. And he finds them natural
 and good insofar as they contribute toward
 the complete arousal of the woman and the
-final act itself.
+final act itself.</p>
 
-They become perversions only, he says, where
+<p>They become perversions only, he says, where
 they are ends in themselves. A man, for instance,
 who cares mainly for expression of the
 mouth has a perverted sexuality; but if this is
-merely a step toward complete sexuality, it is
+<span class="pagenum" id="Page_21">[Pg 21]</span>merely a step toward complete sexuality, it is
 part of the natural process and enhances the
-act.
+act.</p>
 
-In short, in the sexual act as an art the
+<p>In short, in the sexual act as an art the
 man and woman relive their whole development
-from the stage of suckling to the act itself.
+from the stage of suckling to the act itself.</p>
 
-Havelock Ellis also maintains that the positions
+<p>Havelock Ellis also maintains that the positions
 assumed by the man and woman need not
 be the so-called normal, but any that is found
 satisfactory. In fact, he believes that a sense
 of equality between the sexes may be cultivated
 by the man assuming what is usually the
-woman’s position.
+woman’s position.</p>
 
-However, there are those who do not accept
+<p>However, there are those who do not accept
 completely some of these contentions. Recently,
 a well-known New York psychologist said
 before a large audience that he and his colleagues
@@ -554,12 +831,12 @@ act itself, but only in certain phases of the forepleasure.
 These people were, he said, found to
 be normal in every other way, and he advocated
 lifting off the stigma of shame which
-still attaches to such acts.
+still attaches to such acts.</p>
 
-What Jung says in this connection is that it
+<p>What Jung says in this connection is that it
 isn’t the <i>form</i> of the sexuality that matters, but
 rather the attitude we have toward the sexual.
-And, if we bear in mind the mixed nature of
+<span class="pagenum" id="Page_22">[Pg 22]</span>And, if we bear in mind the mixed nature of
 men and women, that some men are more
 feminine, for instance, and some women more
 masculine, it will readily be understood that
@@ -569,12 +846,13 @@ with others it is the chief thing. Some
 women are like men, swift and immediate;
 some men like women, slow and passive. It
 remains in each case for those concerned to
-find their own way.
+find their own way.</p>
 
+<p><span class="pagenum" id="Page_23">[Pg 23]</span></p>
 
-SEXUALITY AND THE FOUR FUNCTIONS
+<h3 class="nobreak">SEXUALITY AND THE FOUR FUNCTIONS</h3>
 
-But if sexuality means one thing to the
+<p>But if sexuality means one thing to the
 introvert, and another to the extravert, if also
 it means one thing to man and another to
 woman, there are still other sharply marked
@@ -585,14 +863,14 @@ rule of conduct. If it is wrong for a so-called
 pure person to rule that all other persons
 must be pure, it is equally wrong for those
 to whom sexuality is necessary to rule that
-everyone must have sexual expression.
+everyone must have sexual expression.</p>
 
-Before, however, going further in these differences
+<p>Before, however, going further in these differences
 of meaning, let us look more closely
 at the difference between introvert and extravert
-in reaction to sexuality.
+in reaction to sexuality.</p>
 
-If the extraverted attitude springs from the
+<p>If the extraverted attitude springs from the
 sexual instinct, it is natural that in the average
 extravert, who has not, due to bad teaching,
 distorted his nature, the sexual development
@@ -601,19 +879,19 @@ less strong maturity. But with the introvert
 it is different. Since the introverted attitude
 arises from the ego-instinct, the development is
 more along the lines of thought, idea, philosophy
-art, etc., and the sexual as a rule remains
+<span class="pagenum" id="Page_24">[Pg 24]</span>art, etc., and the sexual as a rule remains
 undeveloped. If it is undeveloped, it is, in
-fact, childish.
+fact, childish.</p>
 
-In other words, what Freud explains as fixations,
+<p>In other words, what Freud explains as fixations,
 due to attachment to the parent, Jung
 explains as simply that side of the nature
 which is still undeveloped. Introverts who in
 many ways are highly developed, may, at the
 same time, remain children when it comes to
-sexuality.
+sexuality.</p>
 
-The question then arises: Is it better to
+<p>The question then arises: Is it better to
 suppress the sexuality of the introvert altogether,
 since the only kind he is capable of
 has an air of perverseness about it, is perhaps
@@ -622,9 +900,9 @@ or wrong in some other way? Certainly you
 can’t demand of a child what you demand of
 an adult; and neither can you demand of an
 undeveloped function what you demand of one
-fully matured.
+fully matured.</p>
 
-On the other hand the repression of the sexual
+<p>On the other hand the repression of the sexual
 instinct may be a dangerous thing, in
 this connection the dream of an introvert is
 illuminating. He was a man highly developed
@@ -632,25 +910,25 @@ along mental lines, a man, in fact, of some
 prominence; but he experienced great difficulty
 in his sexuality. It was characterized as
 over-impulsive and more or less passive. He
-wanted to play a more or less feminine part
-toward the women.
+<span class="pagenum" id="Page_25">[Pg 25]</span>wanted to play a more or less feminine part
+toward the women.</p>
 
-Because of his high integrity he felt that
+<p>Because of his high integrity he felt that
 this was wrong, and so attempted to suppress
 his sexuality altogether. Then he developed
 symptoms; strange feelings in his head, a sense
 of weakness in his legs. He had the following
-dream:
+dream:</p>
 
-He and his wife were at Coney Island, going
+<p>He and his wife were at Coney Island, going
 about with three people of a cruder type. Two
 of these were men, and one a woman. The
 woman fainted on the street, and no one knew
 what to do for her. A man then rushed out of
 the building, took hold of her, and began an
-infantile stimulation. She revived at once.
+infantile stimulation. She revived at once.</p>
 
-The dream is easily understood. He and his
+<p>The dream is easily understood. He and his
 wife stood for the higher side of himself, the
 developed or introverted side; the three low-brows
 and rough-necks were the undeveloped
@@ -660,51 +938,53 @@ Since this undeveloped side was the extraverted,
 or sexual, the two men and the woman
 represented this side; and the woman suggests
 that part of his sexuality which is more or less
-feminine and passive.
+feminine and passive.</p>
 
-She faints. That is, he develops the symptoms.
+<p>She faints. That is, he develops the symptoms.
 The man who rushes out to help he
-connected with an uncle of his who was noted
+<span class="pagenum" id="Page_26">[Pg 26]</span>connected with an uncle of his who was noted
 for his common sense. In other words, his
 common sense tells him: Cure her by any
 means possible. See, if I do this for her, she
 revives. Better that than to be sick, to develop
-symptoms.
+symptoms.</p>
 
-No code of morality could have helped this
+<p>No code of morality could have helped this
 man. He had as an introvert to realize and
 accept the fact that his sexuality was still childish,
 and to realize also that he had to begin
 with it at the point where it actually was if
 he ever wanted to develop it to something
-higher and better.
+higher and better.</p>
 
-I do not mean to imply here that all introverts
+<p>I do not mean to imply here that all introverts
 are so infantile in their sexuality. There
 are those introverts who began early to develop
 this side also, and have reached a fair
 maturity. However, it is more often the other
-way round.
+way round.</p>
 
-But if there is this distinction to be made,
+<p>But if there is this distinction to be made,
 there are yet others to show how individual
-a matter sexuality may be.
+a matter sexuality may be.</p>
 
-For while we have the two main types of introvert
+<p>For while we have the two main types of introvert
 and extravert based on the two major
 instincts, we have also the four types based on
 the functions. In other words, a man may not
 only be an extravert or introvert, but also a
 thinking type, a feeling type, an intuitive type
-or a sensational type.
+or a sensational type.</p>
 
-According to Jung, these four functions of
+<p><span class="pagenum" id="Page_27">[Pg 27]</span></p>
+
+<p>According to Jung, these four functions of
 <i>thinking</i>, <i>feeling</i>, <i>intuition</i> and <i>sensation</i> constitute
 the make-up of the psyche; and each of
 us tends to accent one of them at the expense
-of the others.
+of the others.</p>
 
-The <i>thinking type</i> is one of the most easily
+<p>The <i>thinking type</i> is one of the most easily
 discernible. He takes thought, he thinks things
 out; he thinks before he acts. He is apt to
 be logical, deliberate, fairly sure of himself,
@@ -717,9 +997,9 @@ good executive, the engineer, the lawyer; if
 introverted, the philosopher and certain types
 of scientist. The thinking type is found mostly
 among men; in Jung’s opinion thinking is a
-masculine function.
+masculine function.</p>
 
-The <i>feeling type</i> is usually found among
+<p>The <i>feeling type</i> is usually found among
 women; though there have been men, and great
 ones, who were of this type: notably Goethe,
 Wagner and Walt Whitman. The feeling type,
@@ -728,7 +1008,7 @@ opposed to thinking, since thinking a thing
 out is the opposite of feeling it out. Feeling,
 itself, is a reaction of <i>like</i> and <i>dislike</i> and is
 a delicate adjustment to the <i>fitness of things</i>.
-The values of the extraverted feeling woman
+<span class="pagenum" id="Page_28">[Pg 28]</span>The values of the extraverted feeling woman
 are almost purely external. In choosing a husband
 she aims rather at the correct thing than
 at the deeper qualities. The man who has
@@ -743,15 +1023,15 @@ She desires everything to move along
 harmoniously, without any unpleasantness.
 She is not deep, but she keeps society afloat
 by her ease and attempt to bring everything
-into harmony.
+into harmony.</p>
 
-The <i>introverted feeling woman</i> is one of the
+<p>The <i>introverted feeling woman</i> is one of the
 silent women. Her feelings form into long
 moods, which persist sometimes for days. She
 suffers quietly and cannot express herself. She
-has no language for these moods.
+has no language for these moods.</p>
 
-Feeling, by the way, must not be confused
+<p>Feeling, by the way, must not be confused
 with <i>emotion</i>. Emotion, as Jung points out, is
 a <i>feeling-sensation</i>; that is, it is at the same
 time both mental and physical; something instinctive,
@@ -759,23 +1039,23 @@ which we share with the animals.
 An emotion of joy, for instance, not only is
 perceived mentally, a state of happiness, but
 also is felt physically: the pulse goes faster,
-the cheeks become flushed, etc. But feeling
+<span class="pagenum" id="Page_29">[Pg 29]</span>the cheeks become flushed, etc. But feeling
 is something separated more or less from sensation
-and developed into an independent function.
+and developed into an independent function.</p>
 
-The developed feeling person feels her likes
+<p>The developed feeling person feels her likes
 and dislikes, or her moods, as something mental,
 which no more affect the body than developed
 thinking in the thinking type. Thinking,
 as we know, can be very cool and detached
-where it is pure and mature.
+where it is pure and mature.</p>
 
-Thinking and feeling then are developed and
+<p>Thinking and feeling then are developed and
 consciously controlled functions; where, on the
 other hand, <i>intuition</i> and <i>sensation</i> are inborn
-and uncontrollable by consciousness.
+and uncontrollable by consciousness.</p>
 
-The <i>intuitive type</i>, works by those instantaneous
+<p>The <i>intuitive type</i>, works by those instantaneous
 flashes of insight which we call intuitions.
 These may be in the nature of hunches,
 or in the nature of an ability to see the hidden
@@ -790,7 +1070,7 @@ weather was sultry, brooding and ominous.
 Goethe said: “At this moment there is an
 earthquake taking place far off.” Some weeks
 later came the news of the great Lisbon earthquake.
-He had known it to the minute. An
+<span class="pagenum" id="Page_30">[Pg 30]</span>He had known it to the minute. An
 intuitive I know was in Virginia when he
 dreamed vividly that his brother in Texas had
 been killed by a Negro and that a messenger
@@ -798,18 +1078,18 @@ had come with a telegram bidding his return
 to Texas. The next morning the messenger
 came. It is by intuition that the painter sees
 the soul of the sitter, and reveals the hidden
-nature in his picture.
+nature in his picture.</p>
 
-The intuitive type is the noble, or what has
+<p>The intuitive type is the noble, or what has
 been called, the spiritual type. Just as the two
 conscious functions of <i>thinking</i> and <i>feeling</i> are
 in opposition to each other, so the two unconscious
 functions of <i>intuition</i> and <i>sensation</i> are
 in opposition; for intuition is the least earthy
 function, sensation (the senses, sexuality) the
-most earthy or animal.
+most earthy or animal.</p>
 
-The intuitive, because he sees into the core
+<p>The intuitive, because he sees into the core
 of things, sees better than anyone else the possibility
 of things. He can see the man in the
 child; the growth of a new movement in politics
@@ -820,49 +1100,51 @@ he hurls himself into new tendencies,
 and then as soon as they are about to come
 to harvest, he is no longer interested, and turns
 to new possibilities. He is the pioneer who
-opens up the wilderness, but does not stay to
+<span class="pagenum" id="Page_31">[Pg 31]</span>opens up the wilderness, but does not stay to
 enjoy the cities that spring up. He sows, but
-he rarely reaps.
+he rarely reaps.</p>
 
-If he is introverted he brings forth out of
+<p>If he is introverted he brings forth out of
 himself great new ideas or works of art. A
-good example is Nietzsche.
+good example is Nietzsche.</p>
 
-The <i>sensational type</i> is of the earth, earthy.
+<p>The <i>sensational type</i> is of the earth, earthy.
 His main function is sensation; the taste, the
 scent, the sound, the touch and the look of
 things. He is highly sensuous, and is constantly
 seeking new sensations. He is very
 realistic, and opposed to anything noble or
 idealistic. He is often the actor, the acrobat,
-the sensualist.
+the sensualist.</p>
 
-If he is introverted he gets his sensations
+<p>If he is introverted he gets his sensations
 through imagining strange pictures of an inverted
 world, such as the world depicted in the
-prose and poetry of Edgar Allan Poe.
+prose and poetry of Edgar Allan Poe.</p>
 
-This is, of course, not a complete setting forth
+<p>This is, of course, not a complete setting forth
 of the types; but merely enough to come to
 some understanding of their differing sexual
-reactions.
+reactions.</p>
 
-If a man or woman is an extraverted thinking
+<p>If a man or woman is an extraverted thinking
 or feeling type, the sexuality is apt to be
 normal. It is apt to be governed by what the
 world considers good form. That is to say,
 it is probably monogamous, done at regular
-intervals, and often without glamor.
+intervals, and often without glamor.</p>
 
-But when we come to the intuitives and the
+<p><span class="pagenum" id="Page_32">[Pg 32]</span></p>
+
+<p>But when we come to the intuitives and the
 sensationals, everything is quite otherwise. The
 intuitive is usually in strong opposition to the
 sensational. To him sexuality is apt to appear
 as something low, animal and disgusting. He
 himself is often without desire, and cannot
-understand the need of it in others.
+understand the need of it in others.</p>
 
-It is true that sometimes an individual by
+<p>It is true that sometimes an individual by
 deep development transcends the groove of his
 type, and in this way some intuitives are able
 finally to develop their sexuality; but, on the
@@ -875,17 +1157,17 @@ that of sensation, and when they are on the
 sensational side they are tempted to make an
 orgy of it. Sensitive intuitive artists get
 drunk and go on debauches: women of this
-type behave somewhat like prostitutes.
+type behave somewhat like prostitutes.</p>
 
-The Freudians err therefore in their doctrine
+<p>The Freudians err therefore in their doctrine
 that sexuality is good for everyone. It is not
 good for certain of the intuitives. In fact,
 many men and women of this type live on in
 the full bloom of their power without knowing
-a sexual life.
+a sexual life.</p>
 
-On the other hand, since sexuality permeates
-the life of the senses and is all bound up with
+<p>On the other hand, since sexuality permeates
+<span class="pagenum" id="Page_33">[Pg 33]</span>the life of the senses and is all bound up with
 them, the sensational usually needs and has a
 full sexual life. The men are apt to be Casanovas
 and flit from woman to woman. Sensations,
@@ -903,26 +1185,26 @@ the mother, or even, in his case, because of an
 undeveloped function (since sensation is his
 developed function), but merely because sensation
 itself demands more and different sensations,
-and the ordinary round is soon exhausted.
+and the ordinary round is soon exhausted.</p>
 
-It is said of the sensational that if he can’t
+<p>It is said of the sensational that if he can’t
 get a good sensation, he will get a bad one;
 if he can’t get one of pleasure, he will take one
 of pain. It is like the poet Keats putting
 pepper in his mouth so that the wine would
-taste the cooler.
+taste the cooler.</p>
 
-There is not much to say about it. In every
+<p>There is not much to say about it. In every
 civilized country certain classes of people are
-looked upon as outside the general code, as in
+<span class="pagenum" id="Page_34">[Pg 34]</span>looked upon as outside the general code, as in
 a class apart. Thus we have the conceptions
 of Bohemia, of Red Light districts, and we
 even exempt from the usual censure certain
 types of actors and actresses in a recognition
 that what we call morality means little to
-them.
+them.</p>
 
-What stands out clearly in noting these differences
+<p>What stands out clearly in noting these differences
 of reaction, is that no one type should
 legislate the morality of the other types. If it
 is perfectly clear to anyone that a code erected
@@ -930,17 +1212,18 @@ by the extraverted sensational type would be
 ruinous to the rest of the population, it should
 also be clear by inference that the thinking type
 can’t legislate for the sensational, nor the
-extravert for the introvert.
+extravert for the introvert.</p>
 
-What we come down to finally is that sexuality,
+<p>What we come down to finally is that sexuality,
 like religion, is an individual matter,
 and must be found by the individual according
-to his needs and his nature.
+to his needs and his nature.</p>
 
+<p><span class="pagenum" id="Page_35">[Pg 35]</span></p>
 
-MISPLACED ENERGY
+<h3 class="nobreak">MISPLACED ENERGY</h3>
 
-However, it should not be taken for granted
+<p>However, it should not be taken for granted
 that perverse sexuality is, in itself, good. Nothing
 that is raw and undeveloped is as good as
 that which is strong and mature. On the other
@@ -953,21 +1236,21 @@ be a law of nature, and we can say of the
 development of man, that his evolution began
 in the “mud and slime of things,” and that in
 the myriad ages that have passed, he has not
-yet attained full manhood.
+yet attained full manhood.</p>
 
-When we look at some of the dark things
+<p>When we look at some of the dark things
 that the race has gone through, we cannot call
 them “good,” but often we must admit that
 they were necessary. So, too, with this matter
 of sexuality: it cannot always be arranged according
-to what we think is best.
+to what we think is best.</p>
 
-Nevertheless, there are many cases of what
+<p>Nevertheless, there are many cases of what
 might be called sick or false sexuality. It
 would appear, according to Jung, that anyone
 who neglects a function or gift which he
 should be developing, is apt to go astray sexually.
-In other words, our energy craves the
+<span class="pagenum" id="Page_36">[Pg 36]</span>In other words, our energy craves the
 outlets provided for it by our innate character.
 If a man, for instance, was born an artist, that
 is not something he can escape. Art is the
@@ -975,22 +1258,22 @@ natural outlet of much of his energy. But if,
 because of his training, or say, his belief that
 art is an idle matter and not manly enough, he
 should turn from this gift, then a certain
-amount of his energy goes idle.
+amount of his energy goes idle.</p>
 
-Idle energy, so Jung has found, usually descends
+<p>Idle energy, so Jung has found, usually descends
 to the sexual zone; and the young man
 finds himself with an unnatural and excessive
 sexual craving. Since this is more than the
 normal sexual desire, it is apt to take abnormal
 form; and the man becomes by an irresistible
-compulsion, a homosexual.
+compulsion, a homosexual.</p>
 
-His homosexuality is not an innate thing; it
+<p>His homosexuality is not an innate thing; it
 is a <i>symptom</i>. It is <i>misplaced energy</i>. The
 cure, of course, is for him to take up his art.
-His sexuality then will become quite normal.
+His sexuality then will become quite normal.</p>
 
-There is the case of the young woman who
+<p>There is the case of the young woman who
 not only had an incessant and excessive sexual
 craving, but who desired any and every man
 she met. It took all her strength to hide her
@@ -998,13 +1281,13 @@ feelings, for she was well-bred, sensitive, and
 with a high standard. She went to a noted
 analyst who discovered that she was the rare
 case of a woman who belonged to the thinking
-type. But thinking in her circle was not favored
+<span class="pagenum" id="Page_37">[Pg 37]</span>type. But thinking in her circle was not favored
 when it came to women. She had therefore
 neglected to develop her intellect, and as
 soon as she began to do so, the symptom disappeared
-and she became quite normal.
+and she became quite normal.</p>
 
-It should be clear from these cases that
+<p>It should be clear from these cases that
 wherever perverse sexuality appears, there is
 need of an investigation. It is necessary to
 discover if it isn’t a case of misplaced energy.
@@ -1012,9 +1295,9 @@ Indeed, one may say offhand, that all <i>excessive</i>
 cases are of this nature, as for instance, a
 marked sadism (sexual cruelty), a marked
 homosexuality, a too great sexual desire. Such
-cases need the treatment of a psycho-analyst.
+cases need the treatment of a psycho-analyst.</p>
 
-However, if energy may be misplaced <i>to</i> the
+<p>However, if energy may be misplaced <i>to</i> the
 sexual zone, it may also be misplaced <i>from</i> the
 sexual zone. This is particularly true in this
 country, because of our Puritan tradition. It
@@ -1028,15 +1311,15 @@ whispered about that auto-erotism led to insanity
 or loss of manhood. Words like gonorrhea
 and syphilis were not mentioned, and
 ignorance in sexual matters was not only disastrous,
-but, one might say, criminal. There
+<span class="pagenum" id="Page_38">[Pg 38]</span>but, one might say, criminal. There
 were women who came to marriage without
 any inkling of how children were born; there
 were boys who doubtless did go insane from
 the practice of auto-eroticism, not because the
 practice hurt them, but because of the shame
-and fear attached to their “secret sin.”
+and fear attached to their “secret sin.”</p>
 
-This darkness has not wholly vanished yet,
+<p>This darkness has not wholly vanished yet,
 though much light has appeared. It is natural
 that many sensitive people, growing up in
 such an atmosphere, should <i>repress</i> their sexuality.
@@ -1047,9 +1330,9 @@ a powerful instinct which needs in the end its
 own natural expression, the repression of it, in
 many cases, would mean that sexual energy
 was misplaced away from the sexual zone, and
-produced a symptom.
+produced a symptom.</p>
 
-Perhaps the simplest way of saying it is
+<p>Perhaps the simplest way of saying it is
 this, that whatever we attempt to repress in
 ourselves we tend to repress in others. If we
 have cut off the glow of life in ourselves, we
@@ -1058,11 +1341,11 @@ others in the same way. This is where the misplaced
 sexual energy goes. We become crusaders,
 we go out and fight vice wherever it
 shows its head, we censor art, we bring about
-prohibition. We become persecutors, driven
+<span class="pagenum" id="Page_39">[Pg 39]</span>prohibition. We become persecutors, driven
 by a kind of madness, thus poisoning our own
-lives and the lives of others.
+lives and the lives of others.</p>
 
-But since sexuality is a social instinct, and
+<p>But since sexuality is a social instinct, and
 is at the root of love, its repression may lead
 to something equally fanatic, but of a different
 nature. The crusading spirit, instead of being
@@ -1070,34 +1353,34 @@ prohibitive, calls the world to salvation. The
 revivalist appears, or the bringer of a new
 religion, or the founder of a sect. There is a
 feverish attempt to convert and to “save the
-world.”
+world.”</p>
 
-America is full of it. Great waves of sexualized
+<p>America is full of it. Great waves of sexualized
 religious fervor sweep over the country.
 Any means may be used: the revivalist may
 use jazz bands and slang, do the Charleston
 on his platform, paint primitive pictures of hellfire
 and damnation, broadcast his violent sermons,
 shame people into conversion, and
-arouse a whole community to hysteria.
+arouse a whole community to hysteria.</p>
 
-To anyone with a discerning eye, the performance
+<p>To anyone with a discerning eye, the performance
 is false on the face of it. It is a lot
 of misplaced sexual energy gone wrong and
-running like a high fever.
+running like a high fever.</p>
 
-A mild case of it which came under an
+<p>A mild case of it which came under an
 analyst’s observation shows the trouble clearly
 enough. The man in question felt that he had
 a message to broadcast to the people, which
-would bring them to a better life. The scheme,
+<span class="pagenum" id="Page_40">[Pg 40]</span>would bring them to a better life. The scheme,
 however, was actually of a cheap nature,
 which he admitted, on criticism, but could not
 give up nevertheless. It was as if he had to
 do it. The key-dream which showed the situation
-was as follows:
+was as follows:</p>
 
-An advertising man of his acquaintance had
+<p>An advertising man of his acquaintance had
 set out to put up the highest advertising sign
 in the world. This was being built on a prairie,
 so that it could be seen from immense distances.
@@ -1107,38 +1390,38 @@ scaffoldings many men were at work on
 the sign. At the bottom of the sign was a
 moat of water. Closing time came, and the
 men immediately leaped from their scaffoldings
-like frogs into the water below.
+like frogs into the water below.</p>
 
-His scheme is shown up as not a real attempt
+<p>His scheme is shown up as not a real attempt
 to help others, but as a matter of self
 advertising, a stunt. More than this, the
 energy which put up the sign, namely, the
 men at work on it, leaps down like frogs.
 Frogs, as a rule, have a sexual significance;
-and sometimes mean auto-erotism.
+and sometimes mean auto-erotism.</p>
 
-In short, the energy behind his attempt to
+<p>In short, the energy behind his attempt to
 save the world is misplaced sexuality, and that
 sexuality of an infantile nature. His compulsion
-left him when he gained the proper sexual
-expression.
+<span class="pagenum" id="Page_41">[Pg 41]</span>left him when he gained the proper sexual
+expression.</p>
 
-However, if repression of sexuality is a bad
+<p>However, if repression of sexuality is a bad
 thing, temporary abstinence is sometimes good.
 Not only are men and women able, at times, to
 go without sexuality for relatively long periods
 but, in certain cases, and at certain times, this
-has the highest value.
+has the highest value.</p>
 
-In many savage tribes, on the night before
+<p>In many savage tribes, on the night before
 the warriors went out to battle, the men were
 not allowed to have any contact with women.
 Doubtless this was done that their energy
 might remain unimpaired, and that their warlike
 fervor might not be softened with any of
-the feelings of love.
+the feelings of love.</p>
 
-In fact, in times of crisis, it would appear
+<p>In fact, in times of crisis, it would appear
 that there can be a displacement of sexual
 energy which is beneficial. When men are
 under the unusual strain of a great task, abstinence
@@ -1146,30 +1429,31 @@ often seems to help. Their whole energy
 becomes transformed into the task, which they
 can now do with greater freedom. Naturally,
 this is a detour, a forced march, and not a
-way of living.
+way of living.</p>
 
-We find often in the case of great artists,
+<p>We find often in the case of great artists,
 that before beginning work on their masterpieces,
 they withdraw from sexual experience.
 Balzac, for instance, always cut himself off
-from society, put on a monk’s robe and secluded
+<span class="pagenum" id="Page_42">[Pg 42]</span>from society, put on a monk’s robe and secluded
 himself until the task was accomplished.
 It is obvious what the monk’s robe meant: it
 was a temporary renunciation of love as well
-as of the world.
+as of the world.</p>
 
+<p><span class="pagenum" id="Page_43">[Pg 43]</span></p>
 
-THE COMMON SENSE OF IT
+<h3 class="nobreak">THE COMMON SENSE OF IT</h3>
 
-We now come to the common sense of it.
+<p>We now come to the common sense of it.
 Undoubtedly in a great number of cases of
 perversion and other sexual trouble, we need
 not search for the cause in a mother-attachment,
 an incest-wish, or an undeveloped function.
 The cause is often of a relatively simple
-nature.
+nature.</p>
 
-Perhaps at the top of the list we may put
+<p>Perhaps at the top of the list we may put
 woman’s fear of being impregnated, of conceiving
 and bearing a child; a fear which a man
 who loves his wife often shares with her.
@@ -1177,9 +1461,9 @@ Such fears are sometimes morbid, and are part
 of a general fear of life. Women who are
 made, as it were, to be mothers, may be evading
 their life-work and refusing pain and responsibility.
-That is quite possible.
+That is quite possible.</p>
 
-But, on the other hand, if we look at the
+<p>But, on the other hand, if we look at the
 matter in the light of common sense, we see,
 first, that to an imaginative person, the fear
 is perfectly natural, just as a perfectly natural
@@ -1188,12 +1472,12 @@ battle; and that, second, circumstances may
 justify and deepen the fear to a point where
 it becomes a deterrent to normal sexuality.
 For instance, poverty might make it impossible
-for the parents to support children, or more
+<span class="pagenum" id="Page_44">[Pg 44]</span>for the parents to support children, or more
 than the one or two already born. Or the
 woman’s health or structure may be such as
-to make child-bearing a grave danger.
+to make child-bearing a grave danger.</p>
 
-Of course “birth control” is urged for such
+<p>Of course “birth control” is urged for such
 people; the use of contraceptives. However,
 not only are such things sometimes unreliable,
 but certain types of people find their use exceedingly
@@ -1201,9 +1485,9 @@ unpleasant, turning what should be
 a joyous union, a spontaneous act, into something
 mechanical and self-conscious. Besides
 that, if the fear of impregnation is great, the
-use of contraceptives does not abolish it.
+use of contraceptives does not abolish it.</p>
 
-It is no wonder then that very many married
+<p>It is no wonder then that very many married
 people turn from normal sexuality to something
 that comes under the heading of perversions.
 The whole aim is to get the glow and
@@ -1212,21 +1496,21 @@ normal entrance. Naturally, if either of the
 couple concerned is strongly normal in his
 sexual desire, there is a loss here; but whether
 that loss is as great as the loss through worry
-and fear, is open to question.
+and fear, is open to question.</p>
 
-There is no use denying that when man
+<p>There is no use denying that when man
 ceased to regard the sexual act as purely animal,
 for propagation purposes, and made an
 art of it, he turned aside from nature; just as
 he has turned aside when he invented the
-wheel or used fire for cooking. Those who
+<span class="pagenum" id="Page_45">[Pg 45]</span>wheel or used fire for cooking. Those who
 argue that nature’s way is best should return
 to the jungle. But if we agree that man may
 refashion not only his environment but his
 mind and his character, then we must admit
-that he may also refashion his sexuality.
+that he may also refashion his sexuality.</p>
 
-As Jung said, it isn’t the <i>form</i> of the sexuality,
+<p>As Jung said, it isn’t the <i>form</i> of the sexuality,
 but the attitude we have toward the sexual.
 If it is an expression of mutual love, an endearment
 of life, an art, something that brings
@@ -1235,9 +1519,9 @@ missing, surely it is both right and good.
 And even if it is a necessary outlet for something
 not so good, but which is undeveloped,
 and needs development, at least it is a preventive
-of sometimes serious disorder.
+of sometimes serious disorder.</p>
 
-Certainly the ideal of Havelock Ellis is the
+<p>Certainly the ideal of Havelock Ellis is the
 highest, that sexuality should be the art of
 love, and that the forepleasure should culminate
 in the act itself; and it is true also that
@@ -1249,13 +1533,13 @@ seem unnatural. But how legislate in the matter?
 Prohibition does not prohibit; and there
 is no way of making a couple, in the privacy
 of their own lives, observe an external standard.
-What is far better is to allow each couple
+<span class="pagenum" id="Page_46">[Pg 46]</span>What is far better is to allow each couple
 to find their own moral law with reference to
 sexuality. If they know they are living up to
 something good, they should be courageous
-enough not to be ashamed of it.
+enough not to be ashamed of it.</p>
 
-If the fear of impregnation is woman’s chief
+<p>If the fear of impregnation is woman’s chief
 fear, that of man’s is often the fear of impotence.
 Many men, through lack of experience
 sexually or for some other reason, have this
@@ -1270,19 +1554,19 @@ more simple. For instance, it might be caused
 by either of two opposite teachings: the one,
 that sexuality in itself is a bad thing, the
 other, the gossip of men, that a man isn’t a
-man unless he is sexually virile.
+man unless he is sexually virile.</p>
 
-If a man believes the first, he must always
+<p>If a man believes the first, he must always
 connect with sexuality something evil and low,
 and if he is at all religious he may feel that
 he is harming his soul, or even damning it,
 if he has sexual pleasure. Such an inhibition
 in itself would be enough to cripple his sexual
 expression, for the very essence of sexuality,
-like love, is that it casts out fear. The sexual
-feeling in a man brings courage and aggressiveness.
+<span class="pagenum" id="Page_47">[Pg 47]</span>like love, is that it casts out fear. The sexual
+feeling in a man brings courage and aggressiveness.</p>
 
-On the other hand, if a man believes that he
+<p>On the other hand, if a man believes that he
 is unmanly unless he is virile, and that other
 men, if they knew of it, would think him a
 eunuch or womanly, he might (and many do)
@@ -1292,9 +1576,9 @@ foreign to the sexual act to use it to prove anything.
 If it is not a joy, and a self-forgetfulness,
 it is nothing. Hence, the man trying to
 prove his case, is apt to turn out exactly as
-he fears.
+he fears.</p>
 
-There must be a change of attitude. In
+<p>There must be a change of attitude. In
 some men virility of character is combined
 with sexual virility; in other men, it is not.
 If we remember the distinction between extravert
@@ -1307,10 +1591,10 @@ world itself more virile. It is said of Michelangelo
 that he was not normal sexually, yet
 his mighty torsos in marble, his colossal painting
 of the Last Judgment could only have been
-produced by a giant of character.
+produced by a giant of character.</p>
 
-There is no single test for what constitutes
-manhood. With some sexuality would play a
+<p>There is no single test for what constitutes
+<span class="pagenum" id="Page_48">[Pg 48]</span>manhood. With some sexuality would play a
 large part, with others not. What is important
 is that a man be true to himself, and if his
 sexuality is of an inferior or undeveloped order,
@@ -1319,9 +1603,9 @@ to a better development. He may then discover,
 when he ceases to strain after lifting
 himself by his bootstraps, that, with the disappearance
 of fear, he is actually more sexually
-powerful than he thought.
+powerful than he thought.</p>
 
-Another great cause for perversion or unsuccessful
+<p>Another great cause for perversion or unsuccessful
 sexuality, which is also perfectly
 obvious, is mismating. Between sensitive people,
 sexuality amounts to very little unless
@@ -1332,24 +1616,26 @@ woman may make the same discovery of her
 husband. Without the natural means of attraction,
 other means are sought for. Some employ
 drink to stimulate them; others resort to
-perversions.
+perversions.</p>
 
-There is also the case of a woman, brought
+<p>There is also the case of a woman, brought
 to an analyst’s attention, who did not love her
 husband, but was madly in love with another
 man. If, in intercourse with her husband, she
 thought of him as the other man and so pictured
-him, the sexuality was successful.
+him, the sexuality was successful.</p>
 
-However, this forcible mating of the mismated
+<p><span class="pagenum" id="Page_49">[Pg 49]</span></p>
+
+<p>However, this forcible mating of the mismated
 is not often good; and indeed if the
 physical antipathy is strong enough, it may not
 even be possible. In such cases, often enough,
 another of the simple, but great problems,
 comes up. It is that either of divorce or of
-polygamy.
+polygamy.</p>
 
-Is man naturally polygamous? That is a question
+<p>Is man naturally polygamous? That is a question
 hard to answer. I rather think that the
 introvert is more monogamous, the extravert
 more polygamous. The introvert tends to go
@@ -1358,21 +1644,21 @@ more on a few things; and he is the same in
 his relationships. They tend to be few, but
 to be rather intense. When it comes to marriage,
 this concentration is apt to exclude every
-woman but his wife.
+woman but his wife.</p>
 
-With the extravert it is different. Since his
+<p>With the extravert it is different. Since his
 attention goes out from himself to the world,
 since his interest is easily aroused, his relationships
 are apt to multiply. They are not
 often deep, but they are swift and easy, and
 without great trouble he can pass, if he is
-sexual, from one woman to another.
+sexual, from one woman to another.</p>
 
-Now it seems to me (though I know this
+<p>Now it seems to me (though I know this
 question is still up in the air) that woman is
 less polygamous than man. To man sexuality
 is in every way a lighter matter. To begin
-with, he is more swiftly and more easily satisfied,
+<span class="pagenum" id="Page_50">[Pg 50]</span>with, he is more swiftly and more easily satisfied,
 and, moreover, he has for himself few
 consequences to fear. It is apparent that the
 woman, more slow to respond, gives a great
@@ -1388,23 +1674,25 @@ more serious than for a man. For this reason,
 and especially if the man is the father of her
 children, his value is such that she concentrates
 on him with possessiveness, and this
-tends toward monogamy.
+tends toward monogamy.</p>
 
-However, woman’s lack of economic independence
+<p>However, woman’s lack of economic independence
 in the past, her great dependence on
 man, may have been a large factor in the
 problem; and, indeed, today it is not rare to
 find women who claim the same freedom that
 men have often claimed, and who are polyandrous
-in their relationships.
+in their relationships.</p>
 
-It would seem, again, that the matter should
+<p>It would seem, again, that the matter should
 be relegated for solution to the individuals concerned;
 and so far as the State is concerned
 that either divorce should be made easy, or
-extra-marital relations allowed for good cause.
+extra-marital relations allowed for good cause.</p>
 
-As a matter of fact, with the attitude now
+<p><span class="pagenum" id="Page_51">[Pg 51]</span></p>
+
+<p>As a matter of fact, with the attitude now
 prevailing, there is much needless suffering. I
 remember the case of a man who married the
 girl of his choice when they were both very
@@ -1414,9 +1702,9 @@ sexual need. He was content to have a wife
 who ran the home, was his companion in his
 travels, and helped receive his guests. They
 were very fond of each other, but had no sexual
-relationship.
+relationship.</p>
 
-He told his wife everything. He discussed
+<p>He told his wife everything. He discussed
 his business and personal problems with her;
 and everything went well until he became so
 successful that a trust bought out his business.
@@ -1430,68 +1718,69 @@ intense affair, full of glamour. He was irresistibly
 drawn into an affair with her, and what
 was more, he found her so delightful a person,
 that it appeared to him that the relationship
-would become permanent.
+would become permanent.</p>
 
-However, his old fondness for his wife was
+<p>However, his old fondness for his wife was
 unabated. Their many years together, their
 complete candor with each other, had given
-their relationship an enduring basis. He knew,
+<span class="pagenum" id="Page_52">[Pg 52]</span>their relationship an enduring basis. He knew,
 nevertheless, that if his wife got wind of his
 new relationship, it would quite wreck her life.
 She was puritanic, she believed in monogamy,
-and she trusted him completely.
+and she trusted him completely.</p>
 
-He attempted to evade the matter; to get
+<p>He attempted to evade the matter; to get
 time off by giving business excuses; but she
 soon became suspicious, and deeply troubled.
 She knew he was hiding something, and feared
-that it was exactly as it was.
+that it was exactly as it was.</p>
 
-Finally, in his dilemma, he came to an analyst.
+<p>Finally, in his dilemma, he came to an analyst.
 After hearing the case, the analyst asked
-him:
+him:</p>
 
-“Can you give up the other woman?”
+<p>“Can you give up the other woman?”</p>
 
-The poor man was lost in his thoughts for
+<p>The poor man was lost in his thoughts for
 several minutes. Then he looked up, and spoke
-slowly:
+slowly:</p>
 
-“No, I cannot. I should rather die.”
+<p>“No, I cannot. I should rather die.”</p>
 
-Such tragedies are hidden in our present
+<p>Such tragedies are hidden in our present
 system of inelastic monogamy. Had the wife
 been brought up to a more sensible attitude,
 or had either of them been taught the value of
 sexuality in their youth, the tragedy might
-have been avoided.
+have been avoided.</p>
 
-Certainly there is one thing that every couple
+<p>Certainly there is one thing that every couple
 must take into consideration; and that is, that
 the nature of either may undergo a change so
 divergent from the other, as to cause the need
-of a genuine readjustment. But if people take this
+<span class="pagenum" id="Page_53">[Pg 53]</span>of a genuine readjustment. But if people take this
 into consideration, they cannot but be less possessive
 of one another; and, indeed, too great
 concentration on each other is usually an evil
 in marriage. For one thing, it often leads to
 the feeling of staleness, and this in turn
 either leads to artificial stimulants, to perversions
-in the sexuality, or it may end in a break.
+in the sexuality, or it may end in a break.</p>
 
-One of the essentials in most marriages is
+<p>One of the essentials in most marriages is
 occasional separation, and diverse interests and
-relationships.
+relationships.</p>
 
-It will be seen then that from the standpoint
+<p>It will be seen then that from the standpoint
 of common sense there are many reasons for
 abnormal or unsuccessful sexuality besides
-those that are due to deeper causes.
+those that are due to deeper causes.</p>
 
+<p><span class="pagenum" id="Page_54">[Pg 54]</span></p>
 
-SOME THINGS TO DO
+<h3 class="nobreak">SOME THINGS TO DO</h3>
 
-As I said in the beginning, it is time for
+<p>As I said in the beginning, it is time for
 this dark cloud of ignorance and prejudice
 and fear which we call the sexual problem, to
 roll away. This can only come about by a
@@ -1504,9 +1793,9 @@ law we make says, “Thou shalt not,” or even
 needs of large sections of the population. What
 it comes down to, finally, is the individual. It
 is he who must be studied, and it is he who
-must find his own path.
+must find his own path.</p>
 
-Doubtless we shall not come to a true sexual
+<p>Doubtless we shall not come to a true sexual
 morality until our education includes the psychological
 study of children. Until the child is
 known, his hidden need is not apparent. If he
@@ -1515,31 +1804,31 @@ he is today, particularly in this country, along
 extraverted lines that are against his bent.
 And if he is an extraverted sensational, we
 cannot demand the same standard of him as
-we could of an intuitive.
+we could of an intuitive.</p>
 
-But even these type differences are insufficient
-for our study. The child, after all, is
+<p>But even these type differences are insufficient
+<span class="pagenum" id="Page_55">[Pg 55]</span>for our study. The child, after all, is
 himself, and therefore in some ways different
 from all others. His problem is always unique,
 and must often be solved in new and unique
-ways.
+ways.</p>
 
-But since a change in our education which
+<p>But since a change in our education which
 would include the technic of modern psycho-analysis,
 is still far off; all that we can do in
 the meantime is to spread the new knowledge
 and new insight, so as to break down the old
 prejudices, shames and fears, and put new
-weapons into the hands of parents.
+weapons into the hands of parents.</p>
 
-It is often difficult for parents to be candid
+<p>It is often difficult for parents to be candid
 with their children concerning sexuality, especially
 if their own attitude is vague or prejudiced.
 Where the difficulty is too great, the
 child should be turned over to a trusted friend
-or teacher for enlightenment and guidance.
+or teacher for enlightenment and guidance.</p>
 
-The first step in gaining the confidence of
+<p>The first step in gaining the confidence of
 the child is to give him a good attitude. Nothing
 that he tells will be used against him;
 there will be an attempt to understand all.
@@ -1547,19 +1836,19 @@ Besides that, he should be told that the problem
 is practically universal, and the things that
 he does, if at all, are not so much sins as bits
 of childishness which may, in many cases, be
-overcome.
+overcome.</p>
 
-When he has learned to speak freely, he may,
+<p>When he has learned to speak freely, he may,
 for instance, for the problem is general, say
-that he practices auto-erotism. In this case, if
+<span class="pagenum" id="Page_56">[Pg 56]</span>that he practices auto-erotism. In this case, if
 the child is still under the age of puberty, he
 can be told that it may become a habit and
 later on give him considerable trouble, and
 that it is something he should attempt to overcome.
 He is to report progress and should not
-mind confessing a slip.
+mind confessing a slip.</p>
 
-Most children are amenable to such treatment,
+<p>Most children are amenable to such treatment,
 and overcome the habit. In a few cases,
 this appears impossible, and some deeper cause
 should be looked for. For instance, the child is
@@ -1573,17 +1862,17 @@ habit as a substitution for some other gratification.
 He may, for example, have a craving for
 candy which a too-wise parent has entirely
 tabooed for him. The cure is candy, by all
-means.
+means.</p>
 
-It will often be found that the hidden cause
+<p>It will often be found that the hidden cause
 is as simple as the foregoing, and that the cure
-is equally simple.
+is equally simple.</p>
 
-However, if the child is at puberty, if he is
+<p>However, if the child is at puberty, if he is
 adolescing, the problem is more difficult. In
 many cases, if the boy is shown that such a
 habit may make it difficult later on to be
-normal sexually, he will break it, and by a
+<span class="pagenum" id="Page_57">[Pg 57]</span>normal sexually, he will break it, and by a
 vigorous life avoid the problem. But there
 are cases which refuse to yield to such common
 sense, and either such a child needs an analysis,
@@ -1591,9 +1880,9 @@ or, as one of our noted psychologists thinks, he
 may be permitted a limited expression until he
 gets past the dangerous years. In such a case,
 he must be warned against excess, to limiting
-himself only to overwhelming desire.
+himself only to overwhelming desire.</p>
 
-This may seem like a poor way of handling
+<p>This may seem like a poor way of handling
 the matter; but unfortunately we have here
 “not a theory, but a condition.” Actually if
 the boy is scared off, he may merely go on
@@ -1605,22 +1894,22 @@ problem, since it is known that the run of men
 who go off on long expeditions, or sea voyages,
 or live in camps where there are no women,
 resort to such practices, we can hardly expect
-highly-sexed boys to observe a higher code.
+highly-sexed boys to observe a higher code.</p>
 
-The best thing, of course, would be a psycho-analysis
+<p>The best thing, of course, would be a psycho-analysis
 at the hands of a perfectly competent
 analyst. In that case a deep and hidden cause
 might be found, such as those outlined in the
 earlier part of this booklet. Where some boys
 find a kind of outlet in athletics and in general
 activities, such a boy might, for example,
-find an outlet in creating some form of art.
+<span class="pagenum" id="Page_58">[Pg 58]</span>find an outlet in creating some form of art.
 He might be gifted as a painter or poet or
 writer of fiction. In many cases, this is the
 cure, until he is old enough to handle his
-sexual problem in the way best suited to him.
+sexual problem in the way best suited to him.</p>
 
-When it comes to adults, there is very little
+<p>When it comes to adults, there is very little
 to be said. It would seem, for instance, as
 though homosexuality ran counter to the best
 tendencies of this age. Why this should be so
@@ -1632,9 +1921,9 @@ and developed men. The Greeks
 practiced bi-sexuality and were a great nation,
 with production of marvelous ideas and deathless art.
 Yet today homosexuality runs against
-the grain.
+the grain.</p>
 
-It may be, of course, that, in the end, no
+<p>It may be, of course, that, in the end, no
 man completes himself, except through woman.
 The rise of woman has made her all the more
 man’s counterpart and complement. It is more
@@ -1643,9 +1932,11 @@ his true individuality. And it may be
 that man must honor the symbol of woman, as
 well as the woman herself, by guiding his
 desire toward her, and fulfilling himself also
-physically through her love.
+physically through her love.</p>
 
-But, however true this may be, there is a
+<p><span class="pagenum" id="Page_59">[Pg 59]</span></p>
+
+<p>But, however true this may be, there is a
 certain percentage of men, relatively small, who
 seem more like the victims, than the willing
 practicers, of homosexuality. The overwhelming
@@ -1657,16 +1948,16 @@ away, make them as a rule pitiable objects.
 It is true that sometimes they turn, as a driven
 animal turns, and stand at bay, flaunting their
 difference in the face of the world; but as a
-rule it is the opposite.
+rule it is the opposite.</p>
 
-Certainly, at least, such cases are for the
+<p>Certainly, at least, such cases are for the
 psycho-analyst’s study, rather than for the
 world’s contempt. There are cases which, as I
 have noted, can be cured; since they are psychological
 in origin; but there are other cases
-which still defy our insight.
+which still defy our insight.</p>
 
-But however reprehensible any given practice
+<p>But however reprehensible any given practice
 may be, when it comes to adults there is
 very little legislation that can be done. They
 can, and will, and do follow individual paths.
@@ -1674,33 +1965,33 @@ One can only enlighten them on the meaning
 of their acts. It is only in such excessive cases
 as that of the seducer of young girls or the
 sadist who harms others that the State can
-step in and put a stop to it.
+step in and put a stop to it.</p>
 
-Another aspect of the problem which must be
-included in this review is that of prostitution
+<p>Another aspect of the problem which must be
+<span class="pagenum" id="Page_60">[Pg 60]</span>included in this review is that of prostitution
 and sexual disease. Is prostitution an evil, or
 will its abolishment lead to more promiscuity?
 That, too, is a difficult question, and by no
 means answerable in a simple way. It does,
 however, seem apparent that prostitution is an
 evil, and that its gradual elimination is leading
-to a greater promiscuity.
+to a greater promiscuity.</p>
 
-The obvious evil of prostitution is that, as a
+<p>The obvious evil of prostitution is that, as a
 rule, it brings sexuality down to its animal
 basis, and thus destroys one of the beauties and
 joys of life. Its further evil is that it turns
 women again into chattels. And finally, of
-course, it is a breeding ground for disease.
+course, it is a breeding ground for disease.</p>
 
-Naturally, a part of the education in sexuality
+<p>Naturally, a part of the education in sexuality
 should include a knowledge of the diseases of
 sex. This, in itself, especially among the young,
 tends to curb the impulse toward promiscuity,
 or at least to limit it to “petting” rather than
-to full sexuality.
+to full sexuality.</p>
 
-Nevertheless, we must admit the fact that
+<p>Nevertheless, we must admit the fact that
 there is a growing promiscuity, along with a
 change of attitude on the whole sexual problem.
 Whether this is a passing phase, and due
@@ -1709,7 +2000,7 @@ or whether the future will look upon sexuality
 with new eyes, we cannot really know.
 However, those who fear that the institution
 of marriage will soon totter on its foundation
-have not, I think, a very deep insight into man.
+<span class="pagenum" id="Page_61">[Pg 61]</span>have not, I think, a very deep insight into man.
 Human nature has much in it of restlessness,
 of desire for change, and for experiment, but
 as a rule it has more on the side of inertia,
@@ -1724,48 +2015,58 @@ just so long will the run of people find much
 of the meaning of life in their children’s
 growth and success. This is the powerful force
 that keeps parents together, even where their
-tastes and their very natures are incompatible.
+tastes and their very natures are incompatible.</p>
 
+<p><span class="pagenum" id="Page_62">[Pg 62]</span></p>
 
-LOVE
+<h3 class="nobreak">LOVE</h3>
 
-/P
-    The love of man for woman and woman for man,
-    It is not often love....
+<div class="poetry-container">
+  <div class="poetry">
+    <div class="stanza">
+      <div class="verse indent0">The love of man for woman and woman for man,</div>
+      <div class="verse indent0">It is not often love....</div>
+    </div>
+    <div class="stanza">
+      <div class="verse indent0">When the married couple kiss do they drink the music of each other’s souls,</div>
+      <div class="verse indent0">Are they moved to unspeakable reverence and adoration,</div>
+      <div class="verse indent0">Would they renounce the world for the good of the beloved?</div>
+    </div>
+    <div class="stanza">
+      <div class="verse indent0">No, kisses are become to them a routine and a duty:</div>
+      <div class="verse indent0">They find each other’s bodies at midnight as they find breakfast in the morning:</div>
+      <div class="verse indent0">And they fill the idle hours with games, shows, rides and liquor,</div>
+      <div class="verse indent0">All to escape from one another....</div>
+    </div>
+    <div class="stanza">
+      <div class="verse indent0">I have thoughts of a love that might be:</div>
+      <div class="verse indent0">Of a love that is the tender caress of forehead and cheeks with barely lingering hands:</div>
+      <div class="verse indent0">Of a love that opens the skies at midnight for silent flight,</div>
+      <div class="verse indent0">Flight far, with wings, in one another’s arms....</div>
+    </div>
+    <div class="stanza">
+      <div class="verse indent0">These lovers shall mean as much to each other as they mean to themselves:</div>
+      <div class="verse indent0">Their tenderness shall melt down irritations:</div>
+      <div class="verse indent0">Their passion shall surcharge tasks with meaning....</div>
+    </div>
+    <div class="stanza">
+      <div class="verse indent0">Not alone shall the man find God in himself,</div>
+      <div class="verse indent0">But in the beloved shall he find him, and in the sight of the beloved shall he adore him....</div>
+    </div>
+  </div>
+</div>
 
-    When the married couple kiss do they drink the music of each other’s souls,
-    Are they moved to unspeakable reverence and adoration,
-    Would they renounce the world for the good of the beloved?
+<p class="right">
+  —<i>Songs for the New Age.</i>
+</p>
 
-    No, kisses are become to them a routine and a duty:
-    They find each other’s bodies at midnight as they find breakfast in the morning:
-    And they fill the idle hours with games, shows, rides and liquor,
-    All to escape from one another....
-
-    I have thoughts of a love that might be:
-    Of a love that is the tender caress of forehead and cheeks with barely lingering hands:
-    Of a love that opens the skies at midnight for silent flight,
-    Flight far, with wings, in one another’s arms....
-
-    These lovers shall mean as much to each other as they mean to themselves:
-    Their tenderness shall melt down irritations:
-    Their passion shall surcharge tasks with meaning....
-
-    Not alone shall the man find God in himself,
-    But in the beloved shall he find him, and in the sight of the beloved shall he adore him....
-P/
-
-/R
-—<i>Songs for the New Age.</i>
-R/
-
-That still remains the ideal. To the couple
+<p>That still remains the ideal. To the couple
 who have found such meaning in each other,
 sexuality, as Havelock Ellis shows, becomes
-the art of love, and the union is one of joy
-and mystery, revealing the greatness of life.
+<span class="pagenum" id="Page_63">[Pg 63]</span>the art of love, and the union is one of joy
+and mystery, revealing the greatness of life.</p>
 
-The ideal of that sexuality remains also as
+<p>The ideal of that sexuality remains also as
 Havelock Ellis states it. As I have said
 several times, he divides the sexual act into
 the forepleasure and the act itself. The forepleasure
@@ -1773,9 +2074,9 @@ is a summarizing of many of those
 things looked upon as infantile and perverse,
 but which, as part of the art of love, become
 means of endearment and arousal, and lead
-finally to the complete consummation.
+finally to the complete consummation.</p>
 
-It is well, even for those who have difficulty
+<p>It is well, even for those who have difficulty
 in the matter, to keep this ideal before them
 as something finally capable of attainment.
 For, while the various items of the forepleasure
@@ -1784,25 +2085,29 @@ because of the lack of development or
 the person’s type, it should not be forgotten
 that things undeveloped should finally be developed,
 so that marriage may become more
-complete and love deeper.
+complete and love deeper.</p>
 
+<p><span class="pagenum" id="Page_64">[Pg 64]</span></p>
 
-NOTE
+<h3 class="nobreak">NOTE</h3>
 
-The reader who wants to pursue the matter
+<p>The reader who wants to pursue the matter
 further, would do well to read Havelock Ellis’s
 <i>Psychology of Sex</i>, particularly volume six,
 which contains the famous chapter on The Art
-of Love.
+of Love.</p>
 
-He may also gain much by reading Freud’s
-<i>General Introduction to Psycho-Analysis</i>.
+<p>He may also gain much by reading Freud’s
+<i>General Introduction to Psycho-Analysis</i>.</p>
 
-Finally, if he is interested in going more
+<p>Finally, if he is interested in going more
 deeply into the psychology of Jung, the problems
 of introvert vs. extravert, and the types,
 he is referred to Little Blue Book No. 978 (<i>The
 Psychology of Jung</i>), Little Blue Book No. 980
 (<i>How I Psycho-Analyzed Myself</i>) and Little
 Blue Book No. 985 (<i>A Psycho-Analysis of
-America</i>).
+America</i>).</p>
+
+</body>
+</html>
