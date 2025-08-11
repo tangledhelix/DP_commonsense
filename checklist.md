@@ -223,17 +223,17 @@ n/a for this project
 * [x] Search `  [Footnote` (no regex; 2 leading spaces) to find footnotes in blockquotes; move them out of the blockquote.
 * [x] Under `Tools → Footnote Fixup`, use `Tidy Footnotes`.
 * [x] `Tools → Clean Up Rewrap Markers`.
-* [ ] Rerun Bookloupe or pptext. Resolve any new issues.
+* [x] Rerun Bookloupe or pptext. Resolve any new issues.
 
 ### Final checks
-* [ ] Search for `<` and `>` to locate any tag markup not yet removed.
+* [x] Search for `<` and `>` to locate any tag markup not yet removed.
 
 ### Check revisit list
-* [ ] Check "things to revisit" list for anything lingering in the text version
+* [x] Check "things to revisit" list for anything lingering in the text version
 
 ### Add TN
-* [ ] Add transcriber's notes, example follows. Use 4+2 blank lines as in new chapter.
-* [ ] Rewrap this section of text when finished.
+* [x] Add transcriber's notes, example follows. Use 4+2 blank lines as in new chapter.
+* [x] Rewrap this section of text when finished.
 
 ```text
 Transcriber’s Note
