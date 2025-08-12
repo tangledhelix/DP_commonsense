@@ -101,6 +101,7 @@ table.autotable th { padding: 0.25em; }
     font-weight: normal;
     font-variant: normal;
     text-indent: 0;
+    color: #cccccc;
 } /* page numbers */
 
 .linenum {
