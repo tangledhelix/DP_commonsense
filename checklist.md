@@ -399,8 +399,8 @@ Perform these validation steps before submitting your book. Validation is also h
   * `<title>Alice's Adventures in Wonderland | Project Gutenberg</title>`
   * Sentence case isn't required here (but it is on the upload form)
 * [x] Use `HTML → HTML5 Validator`. Fix any reported problems.
-* [ ] Remove unused CSS. `HTML → PPhtml` can help with this. Alternatively, check manually or use a tool such as the Firefox addons Firebug (with CSS Usage extension) or Dust-Me Selectors.
-* [ ] Use `HTML → CSS Validator`. Fix any reported problems.
+* [x] Remove unused CSS. `HTML → PPhtml` can help with this. Alternatively, check manually or use a tool such as the Firefox addons Firebug (with CSS Usage extension) or Dust-Me Selectors.
+* [x] Use `HTML → CSS Validator`. Fix any reported problems.
   * Validate as CSS 2.1
   * CSS3 is acceptable if current status is `REC` on [this page](https://www.w3.org/Style/CSS/current-work)
     * e.g. CSS3 drop-caps
@@ -408,8 +408,8 @@ Perform these validation steps before submitting your book. Validation is also h
       * `display: flex` is acceptable but `flex:` is not permitted!
       * `justify-content` may only be `center` and no other value
     * `speak-as: spell-out` if a screen reader should spell out an acronym rather than read as a word
-    * [ ] if uploading CSS3, leave a note for WWer about it.
-* [ ] Use `HTML → HTML Link Checker`. Fix any reported problems.
+    * [x] if uploading CSS3, leave a note for WWer about it.
+* [x] Use `HTML → HTML Link Checker`. Fix any reported problems.
 
 ### Review HTML
 * [ ] Review in multiple browsers (Safari, Chrome, Firefox, maybe Edge?)
