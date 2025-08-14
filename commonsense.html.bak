@@ -60,7 +60,7 @@ table {
     font-weight: normal;
     font-variant: normal;
     text-indent: 0;
-    color: #cccccc;
+    color: #bbbbbb;
 } /* page numbers */
 
 blockquote {
@@ -94,13 +94,13 @@ img {
 
 /* Transcriber's notes */
 .transnote {
-    margin-top: 3em;
+    border: dashed 1px #bbbbbb;
     color: black;
     font-size:small;
     padding:0.5em;
-    margin-bottom:5em;
+    margin: 3em 0;
     font-family:sans-serif, serif;
-    border: dashed 1px #bbbbbb;
+    page-break-before: always;
 }
 
 /* Poetry indents */

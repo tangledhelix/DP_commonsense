@@ -1,6 +1,6 @@
 {
-  "md5checksum": "dadc1818a69482e509a170a680128127",
-  "insertpos": "122.42",
+  "md5checksum": "5e472d6479b4be0ccfd67738bbcb3665",
+  "insertpos": "95.18",
   "insertpospeer": "1945.45",
   "pagedetails": {
     "01": {
@@ -391,6 +391,10 @@
   "imagedir": "/Users/dan/dp/pp/commonsense/pngs",
   "projectid": "projectID67bb3ab1bdd9d",
   "languages": "en",
-  "bookmarks": {},
+  "bookmarks": {
+    "Bookmark1": "1.0",
+    "Bookmark2": "1.0",
+    "Bookmark3": "1.0"
+  },
   "imagerotate": {}
 }
