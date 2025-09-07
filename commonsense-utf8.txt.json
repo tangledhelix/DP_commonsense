@@ -1,6 +1,6 @@
 {
-  "md5checksum": "97ad0f286b172777e039832b9cdd5ffb",
-  "insertpos": "1.0",
+  "md5checksum": "fb1f2ad196a87bf2cab85ad0bd18abba",
+  "insertpos": "433.11",
   "insertpospeer": "1314.0",
   "pagedetails": {
     "01": {
@@ -142,7 +142,7 @@
       "label": "Pg 23"
     },
     "24": {
-      "index": "433.11",
+      "index": "433.12",
       "style": "\"",
       "number": "+1",
       "label": "Pg 24"
@@ -391,6 +391,13 @@
   "imagedir": "/Users/dan/dp/pp/commonsense/pngs",
   "projectid": "projectID67bb3ab1bdd9d",
   "languages": "en",
-  "bookmarks": {},
+  "charsuites": {
+    "Basic Latin": true
+  },
+  "bookmarks": {
+    "Bookmark1": "1.0",
+    "Bookmark2": "1.0",
+    "Bookmark3": "1.0"
+  },
   "imagerotate": {}
 }

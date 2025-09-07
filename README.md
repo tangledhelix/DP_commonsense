@@ -16,6 +16,7 @@ Page references (e.g. `001`) refer to the scan numbers, not the original book's 
 
 * [x] (from forum) Headed sections should be treated as sections since there isn't a ToC.
 * [x] p. 62: poetry
+* [x] (HTML) verify viewport tag addition didn't cause a problem.
 
 ### Project manager notes ###
 
